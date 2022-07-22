@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodiskinew" name="kodiskinew" version="0.0.1" provider-name="kodiskinew Builds">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="kodiskinew Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/k19w/Repositorykodiskinew/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/k19w/Repositorykodiskinew/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/k19w/Repositorykodiskinew/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodiskinew</summary>
+        <description>This is a repository for my binbin friend</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
